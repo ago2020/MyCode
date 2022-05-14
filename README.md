@@ -1,1 +1,1 @@
-# StudentCode
+# MyCode
