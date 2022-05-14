@@ -1,0 +1,22 @@
+시그윈 설치
+
+https://www.cygwin.com/
+
+Install Cygwin by running setup-x86_64.exe
+
+다음 3번 누르기
+다이렉트로 변경
+https://ftp.kaist로 설치
+vim으로 검색
+
+vim 설치
+
+
+gcc으로 검섹
+
+gcc core 설치
+gcc g++ 설치
+
+tcpip 5주차 14페이지 시험
+
+127.0.0.1 9190		
