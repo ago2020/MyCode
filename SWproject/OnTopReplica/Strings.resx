@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ButtonCancel" xml:space="preserve">
+    <value>&amp;Cancel</value>
+    <comment>&amp;amp; ALT+[] 바로 가기를 표시합니다.</comment>
+  </data>
+  <data name="DrawRegions" xml:space="preserve">
+    <value>마우스로 영역을 선택해 주세요.</value>
+  </data>
+  <data name="ErrorDetailButton" xml:space="preserve">
+    <value>세부 사항</value>
+  </data>
+  <data name="ErrorDetailsAero" xml:space="preserve">
+    <value>Windows Aero에 대한 세부 정보</value>
+  </data>
+  <data name="ErrorDetailsAeroInfo" xml:space="preserve">
+    <value>Windows Aero는 Windows Vista Home Premium 이상에서만 사용할 수 있습니다.</value>
+  </data>
+  <data name="ErrorDwmOff" xml:space="preserve">
+    <value>'데스크톱 구성'이 활성화되지 않았습니다.</value>
+  </data>
+  <data name="ErrorDwmOffContent" xml:space="preserve">
+    <value>Windows에서 사용하는 테마로 'Windows Aero'를 선택하여 바탕 화면 구성을 활성화하십시오.
+
+이렇게 하려면 바탕 화면을 마우스 오른쪽 단추로 클릭하고 개인 설정을 클릭하십시오.</value>
+  </data>
+  <data name="ErrorGenericInfoButton" xml:space="preserve">
+    <value>오류내역</value>
+  </data>
+  <data name="ErrorGenericInfoText" xml:space="preserve">
+    <value>오류:</value>
+  </data>
+  <data name="ErrorGenericThumbnailHandleError" xml:space="preserve">
+    <value>선택한 창이 닫혔거나 더 이상 유효하지 않은 것으로 나타납니다.</value>
+  </data>
+  <data name="ErrorGenericTitle" xml:space="preserve">
+    <value>오류</value>
+  </data>
+  <data name="ErrorNoDwm" xml:space="preserve">
+    <value>'데스크톱 구성'은 운영 체제에서 지원되지 않습니다.
+이 응용 프로그램은 Windows Vista Home Premium 이상에서 실행하십시오.</value>
+  </data>
+  <data name="ErrorNoDwmTitle" xml:space="preserve">
+    <value>지원되지 않는 데스크톱 구성</value>
+  </data>
+  <data name="ErrorNoThumbnail" xml:space="preserve">
+    <value>미리 보기가 로드되지 않음.</value>
+  </data>
+  <data name="ErrorUnableToCreateThumbnail" xml:space="preserve">
+    <value>미리 보기를 만들 수 없음</value>
+  </data>
+  <data name="ErrorUnableToFit" xml:space="preserve">
+    <value>윈도우를 맞출 수 없음.</value>
+  </data>
+  <data name="FullscreenMode" xml:space="preserve">
+    <value>모드</value>
+  </data>
+  <data name="FullscreenModeAlwaysOnTop" xml:space="preserve">
+    <value>항상 맨 위에 있음</value>
+  </data>
+  <data name="FullscreenModeAlwaysOnTopTT" xml:space="preserve">
+    <value>항상 맨 위에 있도록 합니다.</value>
+  </data>
+  <data name="FullscreenModeClickThrough" xml:space="preserve">
+    <value>클릭 통과</value>
+  </data>
+  <data name="FullscreenModeClickThroughTT" xml:space="preserve">
+    <value>클릭이 아래 창으로 전달되는 투명한 오버레이처럼 동작합니다.</value>
+  </data>
+  <data name="FullscreenModeNormal" xml:space="preserve">
+    <value>표준</value>
+  </data>
+  <data name="FullscreenModeNormalTT" xml:space="preserve">
+    <value>위에 다른 창을 가져올 수 있습니다.</value>
+  </data>
+  <data name="FullscreenTitle" xml:space="preserve">
+    <value>전체 화면</value>
+  </data>
+  <data name="GroupSwitchModeDisableButton" xml:space="preserve">
+    <value>사용 안함</value>
+  </data>
+  <data name="GroupSwitchModeEnableButton" xml:space="preserve">
+    <value>그룹 모드 사용</value>
+  </data>
+  <data name="GroupSwitchModeStatusDisabled" xml:space="preserve">
+    <value>사용할 여러 창을 선택해 주세요.</value>
+  </data>
+  <data name="GroupSwitchModeStatusEnabled" xml:space="preserve">
+    <value>그룹 스위치 모드가 활성화됩니다</value>
+  </data>
+  <data name="GroupSwitchModeTitle" xml:space="preserve">
+    <value>그룹 스위치 모드:</value>
+  </data>
+  <data name="GroupSwitchModeWindows" xml:space="preserve">
+    <value>윈도우</value>
+    <comment>목록의 열 머리글, 복제할 수 있는 창을 가리킵니다.</comment>
+  </data>
+  <data name="InfoClickForwarding" xml:space="preserve">
+    <value>"클릭 전달"을 사용하시겠습니까?</value>
+  </data>
+  <data name="InfoClickForwardingContent" xml:space="preserve">
+    <value>이 모드가 활성화되면 복제 중인 창으로 마우스 왼쪽 클릭을 모두 전달합니다(이렇게 하면 복제된 창에서 활성화할 필요 없이 기본 마우스 작업을 수행할 수 있습니다).
+
+이 모드를 종료하려면 ESC를 누르십시오.</value>
+  </data>
+  <data name="InfoClickForwardingTitle" xml:space="preserve">
+    <value>클릭 전달</value>
+  </data>
+  <data name="InfoClickThrough" xml:space="preserve">
+    <value>클릭 전달 모드를 사용 하시겠습니까?</value>
+  </data>
+  <data name="InfoClickThroughDetails" xml:space="preserve">
+    <value>클릭 연결은 크기 조정 하위 메뉴에서 활성화되어 있고 창이 반투명 한 경우에만 작동합니다.</value>
+  </data>
+  <data name="InfoClickThroughInformation" xml:space="preserve">
+    <value>이 모드에서 전체 화면 창은 부분적으로 투명한 오버레이로 작동하여 그 뒤에있는 다른 창을 클릭 할 수 있습니다.
+
+언제든지 일반 모드로 돌아가려면 작업 표시 줄 (또는 트레이 아이콘)을 클릭하여 활성화하십시오.</value>
+  </data>
+  <data name="InfoClickThroughNo" xml:space="preserve">
+    <value>아니요 괜찮습니다.
+나중에 클릭 연결을 활성화 할 수 있습니다.</value>
+  </data>
+  <data name="InfoClickThroughOk" xml:space="preserve">
+    <value>클릭 통과 사용</value>
+  </data>
+  <data name="InfoClickThroughTitle" xml:space="preserve">
+    <value>클릭 통과 모드</value>
+  </data>
+  <data name="MenuAdvanced" xml:space="preserve">
+    <value>추가 기능</value>
+  </data>
+  <data name="MenuChrome" xml:space="preserve">
+    <value>창 테두리 표시</value>
+  </data>
+  <data name="MenuChromeTT" xml:space="preserve">
+    <value>창 테두리의 표시를 전환합니다.</value>
+  </data>
+  <data name="MenuClickForwarding" xml:space="preserve">
+    <value>클릭 전달 사용</value>
+  </data>
+  <data name="MenuClickForwardingTT" xml:space="preserve">
+    <value>복제된 창으로 "클릭 전달"을 사용 가능으로 설정하십시오.</value>
+  </data>
+  <data name="MenuClickThrough" xml:space="preserve">
+    <value>클릭 통과 사용</value>
+  </data>
+  <data name="MenuClickThroughTT" xml:space="preserve">
+    <value>클릭이 아래 창으로 전달되는 투명한 오버레이처럼 동작합니다.</value>
+  </data>
+  <data name="MenuClose" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+  <data name="MenuCloseTT" xml:space="preserve">
+    <value>멀티 윈도우를 닫습니다.</value>
+  </data>
+  <data name="MenuFitDouble" xml:space="preserve">
+    <value>2:1 2배</value>
+  </data>
+  <data name="MenuFitFullscreen" xml:space="preserve">
+    <value>전체 화면</value>
+  </data>
+  <data name="MenuFitHalf" xml:space="preserve">
+    <value>1:2 절반</value>
+  </data>
+  <data name="MenuFitOriginal" xml:space="preserve">
+    <value>1:1 같은 크기</value>
+  </data>
+  <data name="MenuFitQuarter" xml:space="preserve">
+    <value>4:1 4분의 1</value>
+  </data>
+  <data name="MenuGroupSwitch" xml:space="preserve">
+    <value>그룹 스위치 모드</value>
+  </data>
+  <data name="MenuGroupSwitchTT" xml:space="preserve">
+    <value>사용자 정의 그룹에서 창을 자동으로 복제하여 가장 최근에 활성화되지 않은 영역으로 전환합니다.</value>
+  </data>
+  <data name="MenuOp100" xml:space="preserve">
+    <value>100% (불투명)</value>
+  </data>
+  <data name="MenuOp100TT" xml:space="preserve">
+    <value>완전히 불투명하게 설정합니다.</value>
+  </data>
+  <data name="MenuOp25" xml:space="preserve">
+    <value>25%</value>
+  </data>
+  <data name="MenuOp25TT" xml:space="preserve">
+    <value>25% 불투명도로 설정합니다.</value>
+  </data>
+  <data name="MenuOp50" xml:space="preserve">
+    <value>50%</value>
+  </data>
+  <data name="MenuOp50TT" xml:space="preserve">
+    <value>50% 불투명도로 설정합니다.</value>
+  </data>
+  <data name="MenuOp75" xml:space="preserve">
+    <value>75%</value>
+  </data>
+  <data name="MenuOp75TT" xml:space="preserve">
+    <value>75% 불투명도로 설정합니다.</value>
+  </data>
+  <data name="MenuOpacity" xml:space="preserve">
+    <value>불투명도</value>
+  </data>
+  <data name="MenuOpen" xml:space="preserve">
+    <value>열기</value>
+  </data>
+  <data name="MenuOpenTT" xml:space="preserve">
+    <value>멀티 윈도우를 표시합니다.</value>
+  </data>
+  <data name="MenuPosBottomLeft" xml:space="preserve">
+    <value>왼쪽 하단</value>
+  </data>
+  <data name="MenuPosBottomRight" xml:space="preserve">
+    <value>오른쪽 하단</value>
+  </data>
+  <data name="MenuPosCenter" xml:space="preserve">
+    <value>중앙</value>
+  </data>
+  <data name="MenuPosDisabled" xml:space="preserve">
+    <value>사용 안함</value>
+  </data>
+  <data name="MenuPosition" xml:space="preserve">
+    <value>위치 잠금</value>
+  </data>
+  <data name="MenuPositionTT" xml:space="preserve">
+    <value>현재 화면에 멀티 윈도우 자동 배치</value>
+  </data>
+  <data name="MenuPosTopLeft" xml:space="preserve">
+    <value>왼쪽 상단</value>
+  </data>
+  <data name="MenuPosTopRight" xml:space="preserve">
+    <value>오른쪽 상단</value>
+  </data>
+  <data name="MenuQuitFullscreen" xml:space="preserve">
+    <value>전체 화면 모드 종료</value>
+  </data>
+  <data name="MenuRecall" xml:space="preserve">
+    <value>마지막 위치 및 크기 호출</value>
+  </data>
+  <data name="MenuRecallTT" xml:space="preserve">
+    <value>마지막 위치와 크기를 저장하고 재시작할 때 이를 사용할지 선택해 주세요.</value>
+  </data>
+  <data name="MenuReduce" xml:space="preserve">
+    <value>최소화</value>
+  </data>
+  <data name="MenuReduceTT" xml:space="preserve">
+    <value>작업 표시줄에 최소화</value>
+  </data>
+  <data name="MenuRegion" xml:space="preserve">
+    <value>돋보기</value>
+  </data>
+  <data name="MenuRegionTT" xml:space="preserve">
+    <value>화면의 일부 또는 전부를 확대하면 단어와 이미지를 더 잘 볼 수 있습니다.</value>
+  </data>
+  <data name="MenuReset" xml:space="preserve">
+    <value>창 초기화</value>
+  </data>
+  <data name="MenuResetTT" xml:space="preserve">
+    <value>설정 및 기본창을 초기화합니다.</value>
+  </data>
+  <data name="MenuResize" xml:space="preserve">
+    <value>크기 조정</value>
+  </data>
+  <data name="MenuRestoreLast" xml:space="preserve">
+    <value>마지막으로 복제된 창 복원</value>
+  </data>
+  <data name="MenuRestoreLastTT" xml:space="preserve">
+    <value>활성화되면 시작시 마지막으로 복제 된 창을 복원합니다.</value>
+  </data>
+  <data name="MenuSettings" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="MenuSettingsTT" xml:space="preserve">
+    <value>설정창을 표시합니다.</value>
+  </data>
+  <data name="MenuSwitch" xml:space="preserve">
+    <value>창으로 전환</value>
+  </data>
+  <data name="MenuSwitchTT" xml:space="preserve">
+    <value>현재 보이는 창으로 전환하고 숨깁니다.</value>
+  </data>
+  <data name="MenuWindows" xml:space="preserve">
+    <value>창 선택</value>
+  </data>
+  <data name="MenuWindowsNone" xml:space="preserve">
+    <value>-없음-</value>
+  </data>
+  <data name="MenuWindowsTT" xml:space="preserve">
+    <value>멀티 윈도우로 선택할 수 있는 창 목록을 표시합니다.</value>
+  </data>
+  <data name="MenuWindowsWholeRegion" xml:space="preserve">
+    <value>-선택-</value>
+  </data>
+  <data name="RegionsCurrentRegion" xml:space="preserve">
+    <value>현재 크기</value>
+  </data>
+  <data name="RegionsDeleteButton" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="RegionsDoneButton" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="RegionsHeight" xml:space="preserve">
+    <value>높이</value>
+  </data>
+  <data name="RegionsResetButton" xml:space="preserve">
+    <value>초기화</value>
+  </data>
+  <data name="RegionsSaveButton" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="RegionsStoredRegions" xml:space="preserve">
+    <value>저장된 영역입니다.</value>
+  </data>
+  <data name="RegionsTitle" xml:space="preserve">
+    <value>영역은 다음과 같습니다.</value>
+  </data>
+  <data name="RegionsWidth" xml:space="preserve">
+    <value>너비</value>
+  </data>
+  <data name="RightClick" xml:space="preserve">
+    <value>여기를 마우스 오른쪽 단추로 클릭</value>
+  </data>
+  <data name="RegionsBottom" xml:space="preserve">
+    <value>아래</value>
+  </data>
+  <data name="RegionsLeft" xml:space="preserve">
+    <value>왼쪽</value>
+  </data>
+  <data name="RegionsRight" xml:space="preserve">
+    <value>오른쪽</value>
+  </data>
+  <data name="RegionsTop" xml:space="preserve">
+    <value>위</value>
+  </data>
+  <data name="RegionsX" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="RegionsY" xml:space="preserve">
+    <value>Y</value>
+  </data>
+</root>
